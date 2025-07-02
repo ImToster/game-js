@@ -1,0 +1,15 @@
+{ "columns":21,
+ "image":"Anomaly_anim.png",
+ "imageheight":160,
+ "imagewidth":336,
+ "margin":0,
+ "name":"player",
+ "objectalignment":"topleft",
+ "spacing":0,
+ "tilecount":210,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

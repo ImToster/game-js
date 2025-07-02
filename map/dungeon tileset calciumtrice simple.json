@@ -1,0 +1,15 @@
+{ "columns":30,
+ "image":"dungeon tileset calciumtrice simple.png",
+ "imageheight":512,
+ "imagewidth":480,
+ "margin":0,
+ "name":"dungeon tileset calciumtrice simple",
+ "objectalignment":"topleft",
+ "spacing":0,
+ "tilecount":960,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

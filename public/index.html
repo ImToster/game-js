@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="root">
+    <div id="panel">
+      <button id="sound" onclick="eventsManager.turnSound()">sound</button>
+
+      <input id="nickname" type="text" value="Nickname" onfocus="eventsManager.onFocusNickname()" onblur="eventsManager.onBlurNickname()">
+
+      <h3>Level</h3>
+      <h4 id="level">1</h4>
+
+      <h3 class="hp">HP</h3>
+      <h4 class="hp" id="hp">3 / 3</h4>
+
+
+      <h3 class="gold">Gold</h3>
+      <h4  class="gold" id="gold">0</h4>
+    </div>
+    <canvas id="view" width="300" height="200" ></canvas>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <h2>Records</h2>
+      <table id="table-records"></table>
+      <h3 id="hint"></h3>
+    </div>
+  </div>
+
+  <script src="javascripts/managers/MapManager.js"></script>
+  <script src="javascripts/managers/SpriteManager.js"></script>
+  <script src="javascripts/managers/PhysicManager.js"></script>
+  <script src="javascripts/managers/EventsManager.js"></script>
+  <script src="javascripts/managers/SoundManager.js"></script>
+  <script src="javascripts/entities/Entity.js"></script>
+  <script src="javascripts/entities/Player.js"></script>
+  <script src="javascripts/entities/Gold.js"></script>
+  <script src="javascripts/entities/GoldKey.js"></script>
+  <script src="javascripts/entities/SilverKey.js"></script>
+  <script src="javascripts/entities/Fire.js"></script>
+  <script src="javascripts/entities/Darkness.js"></script>
+  <script src="javascripts/entities/HealthPotion.js"></script>
+  <script src="javascripts/entities/SpeedPotion.js"></script>
+  <script src="javascripts/entities/Door.js"></script>
+  <script src="javascripts/entities/Enemy.js"></script>
+  <script src="javascripts/entities/Slime.js"></script>
+  <script src="javascripts/entities/Orc.js"></script>
+  <script src="javascripts/managers/EnemyMovement.js"></script>
+  <script src="javascripts/managers/GameManager.js"></script>
+  <script src="javascripts/entities/Finish.js"></script>
+  <script src="javascripts/main.js"></script>
+</body>
+
+</html>

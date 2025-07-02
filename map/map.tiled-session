@@ -1,0 +1,83 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map2.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "dungeon tileset calciumtrice simple.json": {
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        },
+        "map.json": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 455.33333333333337,
+                "y": 328.6666666666667
+            }
+        },
+        "map1.json": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 400.6666666666667,
+                "y": 319.33333333333326
+            }
+        },
+        "map2.json": {
+            "expandedObjectLayers": [
+                6,
+                4,
+                7,
+                3
+            ],
+            "scale": 3,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 82.66666666666666,
+                "y": 870.1666666666666
+            }
+        },
+        "player.json": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Денис/WebstormProjects/game/map",
+    "last.imagePath": "C:/Users/Денис/WebstormProjects/game/map",
+    "map.height": 60,
+    "map.lastUsedExportFilter": "JSON map-файлы (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 40,
+    "openFiles": [
+        "map1.json",
+        "dungeon tileset calciumtrice simple.json",
+        "player.json",
+        "map2.json"
+    ],
+    "project": "map.tiled-project",
+    "recentFiles": [
+        "map1.json",
+        "dungeon tileset calciumtrice simple.json",
+        "player.json",
+        "map2.json",
+        "map.json"
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

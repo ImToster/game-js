@@ -1,0 +1,11 @@
+const canvas = document.getElementById('view')
+const ctx = canvas.getContext("2d")
+const mapManager = new MapManager(canvas.width, canvas.height)
+const spriteManager = new SpriteManager()
+const physicManager = new PhysicManager()
+const eventsManager = new EventsManager()
+const gameManager = new GameManager()
+const soundManager = new SoundManager()
+
+gameManager.loadAll()
+gameManager.play()
