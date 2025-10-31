@@ -12,7 +12,7 @@
 
 ## Стек технологий
 
-Python, Django REST Framework, MongoDB, Nginx, Docker
+JavaScript, Docker
 
 ## Запуск проекта
 Находясь в директории репозитория выполнить:
