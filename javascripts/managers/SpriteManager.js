@@ -11,7 +11,7 @@ class SpriteManager{
             if (request.readyState === 4 && request.status === 200)
                 this.parseAtlas(request.responseText)
         }
-        request.open("GET", `/atlas/${atlasJSON}`, true)
+        request.open("GET", `atlas/${atlasJSON}`, true)
         request.send()
         this.loadImg(atlasIMG)
     }
@@ -33,7 +33,7 @@ class SpriteManager{
 
     loadImg(atlasIMG){
         this.image.onload = () => this.imgLoaded = true
-        this.image.src = `/atlas/${atlasIMG}`
+        this.image.src = `atlas/${atlasIMG}`
     }
 
     drawSprite(ctx, name, x, y) {

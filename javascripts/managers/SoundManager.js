@@ -15,7 +15,7 @@ class SoundManager{
         clip.play = (volume, loop) => this.play(name, {looping: loop ? loop : false, volume: volume ? volume : 1})
         this.clips[name] = clip
         const request = new XMLHttpRequest()
-        request.open('GET', `/sounds/${name}.mp3`, true)
+        request.open('GET', `sounds/${name}.mp3`, true)
         request.responseType = 'arraybuffer'
         request.onload = () => {
             this.context.decodeAudioData(request.response, (buffer) => {
