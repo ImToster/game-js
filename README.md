@@ -1,5 +1,7 @@
 # Игра на чистом JavaScript
 
+https://imtoster.github.io/game-js/
+
 ## Описание
 
 В рамках курсовой работы по дисциплине «WEB-технологии» на чистом JavaScript разработана игра с 
