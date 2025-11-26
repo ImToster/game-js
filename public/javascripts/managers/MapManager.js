@@ -33,7 +33,7 @@ class MapManager{
             if (request.readyState === 4 && request.status === 200)
                 this.parseMap(request.responseText)
         }
-        request.open("GET", `/map/${path}`, true)
+        request.open("GET", `/public/map/${path}`, true)
         request.send()
     }
 
@@ -61,7 +61,7 @@ class MapManager{
             if (request.readyState === 4 && request.status === 200)
                 this.parseTileset(request.responseText, firstgid)
         }
-        request.open("GET", `/map/${path}`, true)
+        request.open("GET", `/public/map/${path}`, true)
         request.send()
     }
 
@@ -73,7 +73,7 @@ class MapManager{
             if (this.imgLoadCount === this.mapData.tilesets.length)
                 this.imgLoaded = true
         }
-        img.src = `/map/${tileset.image}`
+        img.src = `/public/map/${tileset.image}`
         this.tilesets.push({
             firstgid: firstgid,
             image: img,
